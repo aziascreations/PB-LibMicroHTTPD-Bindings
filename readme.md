@@ -1,15 +1,15 @@
 # W.I.P - PB-LibMicroHTTPD-Bindings
-PureBasic bindings for the *libhttpd* library.
+PureBasic bindings for the *libmicrohttpd * library.
 
 ## Requirements
 * PureBasic 6.00 LTS - C Backend  (5.70 support will come later)
-* libhttpd 0.9.75+
+* libmicrohttpd  0.9.75+
 * PB-CTypes 1.0.0+
 
 ## Development Setup
 In order to use these bindings, you need to do the following things:
 
-### 1. Downloading *libhttpd*
+### 1. Downloading *libmicrohttpd *
 
 #### Linux
 Simply run one the following command, depending on your packet manager, to install the development libraries:

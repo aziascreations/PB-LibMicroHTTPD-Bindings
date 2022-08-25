@@ -140,7 +140,7 @@ Structure MHD_OptionItem Align #PB_Structure_AlignC
 	;  two pointer arguments); should be 0 for options that take no
 	;  arguments or only a single pointer argument.
 	*value  ;.i
-	;intptr_t value;
+			;intptr_t value;
 	
 	; Pointer option value (use NULL for options taking no arguments
 	;  or only an integer option).
@@ -914,7 +914,7 @@ Enumeration MHD_Result
 	
 	; MHD-internal Return code For = "NO".
 	#MHD_NO = 0
-
+	
 	; MHD-internal Return code For = "YES".
 	#MHD_YES = 1
 EndEnumeration
