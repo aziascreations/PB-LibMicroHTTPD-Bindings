@@ -1,0 +1,19 @@
+# Libraries
+Binaries/
+*.lib
+*.exp
+*.a
+*.so
+*.obj
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# Configs
+*.cfg
+
+# Others
+*.h
+Tests/
